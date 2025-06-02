@@ -5,7 +5,7 @@ st.set_page_config(page_title="FARAH", page_icon="👩‍⚕️", layout="center
 
 st.markdown( """ <style> .st-emotion-cache-janbn0 { flex-direction: row-reverse; text-align: right; } </style> """, unsafe_allow_html=True, ) 
 # st.markdown("<h1 style='text-align: center; color: white;'>👩‍⚕️ فرح</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center; color: white;'>FARAH 👩‍⚕️</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>FARAH 👩‍⚕️</h1>", unsafe_allow_html=True)
 # ---------- Openai
 # Opeai API Key
 client = openai.OpenAI( api_key=st.secrets["OPENAI_API_KEY"])
